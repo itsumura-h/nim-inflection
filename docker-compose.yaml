@@ -1,0 +1,9 @@
+version: '3'
+services:
+  inflection:
+    build:
+      context: .
+      dockerfile: ./docker/app_Dockerfile
+    tty: true
+    volumes:
+      - .:/home/www
