@@ -1,0 +1,23 @@
+*
+!*.*
+!*/
+
+# Created by https://www.gitignore.io/api/nim
+# Edit at https://www.gitignore.io/?templates=nim
+
+### Nim ###
+nimcache/
+
+# End of https://www.gitignore.io/api/nim
+
+!LICENSE
+!app_Dockerfile
+
+coverage
+lcov.info
+
+/deploy/
+
+*.log
+
+gh-pages*
