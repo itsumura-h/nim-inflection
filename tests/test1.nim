@@ -7,6 +7,6 @@
 
 import unittest
 
-import www
+import inflection
 test "can add":
   check add(5, 5) == 10
