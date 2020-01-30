@@ -1,1 +1,1 @@
-add	inflection.html#add,int,int	inflection: add(x, y: int): int	
+pluralize	inflection.html#pluralize,string	inflection: pluralize(word: string): string	
