@@ -89,3 +89,7 @@ proc pluralize*(word:string): string =
         return result
     echo word
     return word
+
+proc singularize(word:string): string =
+  for inflection in UNCOUNTABLES:
+    
