@@ -1,1 +1,2 @@
 pluralize	inflection.html#pluralize,string	inflection: pluralize(word: string): string	
+singularize	inflection.html#singularize,string	inflection: singularize(word: string): string	
